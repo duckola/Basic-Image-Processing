@@ -1,0 +1,13 @@
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\bin\Debug\Adolfo_Basic Image Processing.exe.config
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\bin\Debug\Adolfo_Basic Image Processing.exe
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\bin\Debug\Adolfo_Basic Image Processing.pdb
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic Image Processing.csproj.AssemblyReference.cache
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic_Image_Processing.Form1.resources
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic_Image_Processing.Properties.Resources.resources
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic Image Processing.csproj.GenerateResource.cache
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic Image Processing.csproj.CoreCompileInputs.cache
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic Image Processing.exe
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic Image Processing.pdb
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic Image Processing.exe.config
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic_Image_Processing.Form2.resources
+C:\Users\janee\source\repos\Adolfo_Basic Image Processing\Adolfo_Basic Image Processing\obj\Debug\Adolfo_Basic_Image_Processing.Form3.resources
