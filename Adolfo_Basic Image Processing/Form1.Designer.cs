@@ -77,7 +77,7 @@ namespace Adolfo_Basic_Image_Processing
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(581, 264);
+            this.ClientSize = new System.Drawing.Size(581, 240);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -92,8 +92,8 @@ namespace Adolfo_Basic_Image_Processing
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1; //filter (sepia, greyscale, invert)
+        private System.Windows.Forms.Button button2; // green screen
 
         // Hover effects for buttons
         private void Button_MouseEnter(object sender, EventArgs e)

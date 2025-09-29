@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\adolfo_basic image processing\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:adolfo_basic image processing\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:Adolfo_Basic Image Processing\\Form2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:Adolfo_Basic Image Processing\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|c:\\users\\leeja\\desktop\\microsofotvisualstudio\\adolfo_basic image processing\\adolfo_basic image processing\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:adolfo_basic image processing\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:Adolfo_Basic Image Processing\\Form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\adolfo_basic image processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:adolfo_basic image processing\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|c:\\users\\leeja\\desktop\\microsofotvisualstudio\\adolfo_basic image processing\\adolfo_basic image processing\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:adolfo_basic image processing\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|c:\\users\\leeja\\desktop\\microsofotvisualstudio\\adolfo_basic image processing\\adolfo_basic image processing\\bitmapfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:adolfo_basic image processing\\bitmapfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|c:\\users\\leeja\\desktop\\microsofotvisualstudio\\adolfo_basic image processing\\adolfo_basic image processing\\convmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:adolfo_basic image processing\\convmatrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:Adolfo_Basic Image Processing\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:Adolfo_Basic Image Processing\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:Adolfo_Basic Image Processing\\Device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|c:\\users\\leeja\\desktop\\microsofotvisualstudio\\adolfo_basic image processing\\adolfo_basic image processing\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:adolfo_basic image processing\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\DeviceManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6872C7F-0B85-4661-867B-AA6839F32DDB}|Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing.csproj|solutionrelative:Adolfo_Basic Image Processing\\DeviceManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form2.Designer.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form2.Designer.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAADwv+MAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:14:54.528Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form2.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form2.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form2.cs [Design]",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:18:02.827Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form3.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.Designer.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form3.Designer.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.Designer.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form3.Designer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T11:59:50.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConvMatrix.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\ConvMatrix.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\ConvMatrix.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\ConvMatrix.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\ConvMatrix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T11:30:26.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BitmapFilter.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\BitmapFilter.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\BitmapFilter.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\BitmapFilter.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\BitmapFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T11:31:14.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Device.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Device.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Device.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Device.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAF8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T01:49:34.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form2.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form2.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form2.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form2.cs",
+              "ViewState": "AgIAAF4BAAAAAAAAAAASwGkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:08:17.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form3.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.cs [Design]",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:27:15.101Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form1.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.cs [Design]",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T13:12:53.062Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form3.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form3.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:48:59.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.Designer.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form1.Designer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:17:08.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form1.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T15:00:47.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.resx",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\Form1.resx",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\Form1.resx",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-29T10:12:51.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeviceManager.cs",
+              "DocumentMoniker": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\DeviceManager.cs",
+              "RelativeDocumentMoniker": "Adolfo_Basic Image Processing\\DeviceManager.cs",
+              "ToolTip": "C:\\Users\\leeja\\Desktop\\MicrosofotVisualStudio\\Adolfo_Basic Image Processing\\Adolfo_Basic Image Processing\\DeviceManager.cs",
+              "RelativeToolTip": "Adolfo_Basic Image Processing\\DeviceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T01:51:27.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

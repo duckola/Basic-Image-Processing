@@ -15,19 +15,20 @@ namespace Adolfo_Basic_Image_Processing
     {
         private Timer webcamTimer;
         private bool isWebcamActive = false;
-        private int currentFilter = 0; // 0: copy, 1: grayscale, 2: invert, 3: sepia, 4: histogram
+        private int currentFilter = 0; // 0: copy, 1: grayscale, 2: invert, 3: sepia, 4: histogram...
         private Bitmap webcamFrame;
         private WebCamLib.Device webcam;
-        private Image bmap;
 
         public Form2()
         {
             InitializeComponent();
         }
 
+        // Used by Form1 to pass the chosen image
         public void SetImage(Image image)
         {
             pictureBox1.Image = image;
+            pictureBox2.Image = null;
         }
 
         // ---------------- FILTER HELPERS ----------------
@@ -73,10 +74,11 @@ namespace Adolfo_Basic_Image_Processing
                     int tr = (int)(0.393 * pixelColor.R + 0.769 * pixelColor.G + 0.189 * pixelColor.B);
                     int tg = (int)(0.349 * pixelColor.R + 0.686 * pixelColor.G + 0.168 * pixelColor.B);
                     int tb = (int)(0.272 * pixelColor.R + 0.534 * pixelColor.G + 0.131 * pixelColor.B);
-                    tr = Math.Min(255, tr);
-                    tg = Math.Min(255, tg);
-                    tb = Math.Min(255, tb);
-                    newB.SetPixel(x, y, Color.FromArgb(tr, tg, tb));
+                    newB.SetPixel(x, y, Color.FromArgb(
+                        Math.Min(255, tr),
+                        Math.Min(255, tg),
+                        Math.Min(255, tb)
+                    ));
                 }
             }
             return newB;
@@ -120,23 +122,37 @@ namespace Adolfo_Basic_Image_Processing
                 case 2: return ApplyInvert(b);
                 case 3: return ApplySepia(b);
                 case 4: return ApplyHistogram(b);
-                default: return (Bitmap)b.Clone(); // copy
+                case 5: return ApplyConvolution(b, GaussianKernel);
+                case 6: return ApplyConvolution(b, SharpenKernel);
+                case 7: return ApplyConvolution(b, EdgeKernel);
+                case 8: return ApplyConvolution(b, SmoothKernel);
+                case 9: return ApplyConvolution(b, MeanRemovalKernel);
+                case 10: return ApplyConvolution(b, EmbossKernel);
+                default: return (Bitmap)b.Clone();
             }
         }
 
-        // ---------------- BUTTONS ----------------
-        private void button2_Click(object sender, EventArgs e) => ApplyAndShow(0); // copy
-        private void button3_Click(object sender, EventArgs e) => ApplyAndShow(1); // grayscale
-        private void button4_Click(object sender, EventArgs e) => ApplyAndShow(2); // invert
-        private void button6_Click(object sender, EventArgs e) => ApplyAndShow(3); // sepia
-        private void button5_Click(object sender, EventArgs e) => ApplyAndShow(4); // histogram
+
+        // ---------------- FILTER BUTTONS ----------------
+        private void button2_Click(object sender, EventArgs e) => ApplyAndShow(0); // Copy
+        private void button3_Click(object sender, EventArgs e) => ApplyAndShow(1); // Grayscale
+        private void button4_Click(object sender, EventArgs e) => ApplyAndShow(2); // Invert
+        private void button6_Click(object sender, EventArgs e) => ApplyAndShow(3); // Sepia
+        private void button5_Click(object sender, EventArgs e) => ApplyAndShow(4); // Histogram
+        private void button9_Click(object sender, EventArgs e) => ApplyAndShow(5); // Gaussian
+        private void button10_Click(object sender, EventArgs e) => ApplyAndShow(6); // Sharpen
+        private void button11_Click(object sender, EventArgs e) => ApplyAndShow(7); // Edge
+
+        private void button12_Click(object sender, EventArgs e) => ApplyAndShow(8); // Smooth
+        private void button13_Click(object sender, EventArgs e) => ApplyAndShow(9); // Mean Removal
+        private void button14_Click(object sender, EventArgs e) => ApplyAndShow(10); // Emboss
 
         private void ApplyAndShow(int filterType)
         {
             if (pictureBox1.Image == null) return;
             Bitmap src = new Bitmap(pictureBox1.Image);
             pictureBox2.Image = ApplyFilter(src, filterType);
-            currentFilter = filterType; // update filter for live webcam
+            currentFilter = filterType;
         }
 
         // ---------------- SAVE ----------------
@@ -179,7 +195,7 @@ namespace Adolfo_Basic_Image_Processing
         // ---------------- WEBCAM ----------------
         private void button8_Click(object sender, EventArgs e)
         {
-            if (!isWebcamActive) // Webcam is OFF -> Start webcam
+            if (!isWebcamActive)
             {
                 var devices = WebCamLib.DeviceManager.GetAllDevices();
                 if (devices.Length == 0)
@@ -189,57 +205,49 @@ namespace Adolfo_Basic_Image_Processing
                 }
 
                 webcam = devices[0];
-                webcam.ShowWindow(pictureBox1); // show live preview
+                webcam.ShowWindow(pictureBox1);
 
                 pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                 pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
                 StartWebcam();
-
-                button8.Text = "Switch to Uploading Files";
+                button8.Text = "📁 Switch to Upload Mode";
             }
-            else // Webcam is ON -> Stop webcam and open file dialog
+            else
             {
                 StopWebcam();
-
                 using (OpenFileDialog openDialog = new OpenFileDialog())
                 {
                     openDialog.Title = "Open Image";
                     openDialog.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
-
                     if (openDialog.ShowDialog() == DialogResult.OK)
                     {
                         try
                         {
                             Image img = Image.FromFile(openDialog.FileName);
                             pictureBox1.Image = img;
-                            pictureBox2.Image = null; // clear processed image until user applies a filter
+                            pictureBox2.Image = null;
                         }
                         catch (Exception ex)
                         {
-                            MessageBox.Show("Error loading image: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("Error loading image: " + ex.Message);
                         }
                     }
                 }
 
-
                 pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
                 pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-
-                button8.Text = "Switch to Webcam";
-
+                button8.Text = "📷 Switch to Webcam";
             }
         }
-
 
         private void StartWebcam()
         {
             if (webcamTimer == null)
             {
                 webcamTimer = new Timer();
-                webcamTimer.Interval = 100; // ~10 FPS
+                webcamTimer.Interval = 100;
                 webcamTimer.Tick += WebcamTimer_Tick;
-
             }
             isWebcamActive = true;
             webcamTimer.Start();
@@ -248,10 +256,7 @@ namespace Adolfo_Basic_Image_Processing
         private void StopWebcam()
         {
             isWebcamActive = false;
-
-            if (webcamTimer != null)
-                webcamTimer.Stop();
-
+            if (webcamTimer != null) webcamTimer.Stop();
             if (webcam != null)
             {
                 webcam.Stop();
@@ -259,26 +264,97 @@ namespace Adolfo_Basic_Image_Processing
             }
         }
 
-
         private void WebcamTimer_Tick(object sender, EventArgs e)
         {
             if (webcam == null) return;
-
-            // Ask webcam to copy frame into clipboard
             webcam.Sendmessage();
-
             IDataObject data = Clipboard.GetDataObject();
-            if (data == null || !data.GetDataPresent("System.Drawing.Bitmap"))
-                return;
+            if (data == null || !data.GetDataPresent("System.Drawing.Bitmap")) return;
 
             Bitmap bmp = data.GetData("System.Drawing.Bitmap", true) as Bitmap;
             if (bmp == null) return;
 
-            webcamFrame = (Bitmap)bmp.Clone(); // safe copy
-            pictureBox1.Image = webcamFrame;   // raw feed
-            pictureBox2.Image = ApplyFilter(webcamFrame, currentFilter); // filtered feed
+            webcamFrame = (Bitmap)bmp.Clone();
+            pictureBox1.Image = webcamFrame;
+            pictureBox2.Image = ApplyFilter(webcamFrame, currentFilter);
         }
 
+        // ---------------- CONVOLUTION KERNELS ----------------
+        private readonly double[,] GaussianKernel = new double[,]
+        {
+            { 1, 2, 1 },
+            { 2, 4, 2 },
+            { 1, 2, 1 }
+        };
+
+        private readonly double[,] SharpenKernel = new double[,]
+       {
+            {  0, -1,  0 },
+            { -1,  5, -1 },
+            {  0, -1,  0 }
+       };
+
+        private readonly double[,] EdgeKernel = new double[,]
+        {
+            { -1, -1, -1 },
+            { -1,  8, -1 },
+            { -1, -1, -1 }
+        };
+
+        // ---------------- EXTRA CONVOLUTION KERNELS ----------------
+        private readonly double[,] SmoothKernel = new double[,]
+        {
+             { 1, 1, 1 },
+            { 1, 1, 1 },
+            { 1, 1, 1 }
+        };
+
+        private readonly double[,] MeanRemovalKernel = new double[,]
+        {
+            { -1, -1, -1 },
+            { -1,  9, -1 },
+            { -1, -1, -1 }
+        };
+
+        private readonly double[,] EmbossKernel = new double[,]
+        {
+            { -1, -1,  0 },
+            { -1,  0,  1 },
+            {  0,  1,  1 }
+        };
+
+
+        private Bitmap ApplyConvolution(Bitmap src, double[,] kernel)
+        {
+            int w = src.Width, h = src.Height;
+            Bitmap output = new Bitmap(w, h);
+            int k = kernel.GetLength(0) / 2;
+            double sum = kernel.Cast<double>().Sum();
+            if (sum == 0) sum = 1;
+
+            for (int y = k; y < h - k; y++)
+            {
+                for (int x = k; x < w - k; x++)
+                {
+                    double r = 0, g = 0, b = 0;
+                    for (int ky = -k; ky <= k; ky++)
+                        for (int kx = -k; kx <= k; kx++)
+                        {
+                            Color c = src.GetPixel(x + kx, y + ky);
+                            double weight = kernel[ky + k, kx + k];
+                            r += c.R * weight;
+                            g += c.G * weight;
+                            b += c.B * weight;
+                        }
+
+                    int rr = Math.Min(255, Math.Max(0, (int)(r / sum)));
+                    int gg = Math.Min(255, Math.Max(0, (int)(g / sum)));
+                    int bb = Math.Min(255, Math.Max(0, (int)(b / sum)));
+                    output.SetPixel(x, y, Color.FromArgb(rr, gg, bb));
+                }
+            }
+            return output;
+        }
 
         private void Form2_Load(object sender, EventArgs e)
         {
